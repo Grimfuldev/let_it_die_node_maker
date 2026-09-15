@@ -1,0 +1,47 @@
+{
+  "name": "Placeholder",
+  "uid": 18,
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Waiting Room",
+      "floor": 0,
+      "x": 795,
+      "material": "Empty",
+      "stars": "",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "ports": {
+        "top_left": {"target": "", "color": "cyan", "gate": "none"},
+        "top_mid": {"target": "IKEGARA", "color": "cyan", "gate": "none"},
+        "top_right": {"target": "", "color": "cyan", "gate": "none"},
+        "und_left": {"target": "", "color": "cyan", "gate": "none"},
+        "und_mid": {"target": "", "color": "cyan", "gate": "none"},
+        "und_right": {"target": "", "color": "cyan", "gate": "none"}
+      },
+      "group": ["Elevator_blue"]
+    },
+    {
+      "id": "n2",
+      "title": "IKEGARA",
+      "floor": 1,
+      "x": 795,
+      "material": "Empty",
+      "stars": "",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "ports": {
+        "top_left": {"target": "", "color": "cyan", "gate": "none"},
+        "top_mid": {"target": "", "color": "cyan", "gate": "none"},
+        "top_right": {"target": "", "color": "cyan", "gate": "none"},
+        "und_left": {"target": "", "color": "cyan", "gate": "none"},
+        "und_mid": {"target": "Waiting Room", "color": "cyan", "gate": "none"},
+        "und_right": {"target": "", "color": "cyan", "gate": "none"}
+      },
+      "group": ["Elevator_blue"]
+    }
+  ],
+  "stickers": []
+}
