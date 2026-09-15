@@ -3,6 +3,12 @@
 <img width="256" height="256" alt="lidico" src="https://github.com/user-attachments/assets/1257874e-611a-4977-9f1b-03f959f71a24" />
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/00492a01-bcb9-4105-9474-fca24a5035dd" />
 </p>
+
+
+https://github.com/user-attachments/assets/a1ef5e4b-7ce0-4276-9e51-40112ad5ad6a
+
+
+
 Editor for LET IT DIE style floor maps, create and edit maps. 
 
 Folders next to the program (editable)
