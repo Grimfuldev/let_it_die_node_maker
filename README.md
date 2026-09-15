@@ -1,9 +1,10 @@
 # Let_It_Die_Node_Maker
 <img width="256" height="256" alt="lidico" src="https://github.com/user-attachments/assets/1257874e-611a-4977-9f1b-03f959f71a24" />
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/327aeddb-60b9-4569-b3eb-906b47a4bf88" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/485d4957-3b54-4d88-95a4-e6e7589451e1" />
+
 
 Editor for LET IT DIE style floor maps, create and edit maps. 
-
+```text
 Folders next to the program (editable)
 --------------------------------------
 Grid_assets          floor, node, gate, elevator, materials
@@ -11,7 +12,7 @@ Sticker_assets       sticker catalog, Path routes
 
 Bundled in the exe
 ------------------
-UI_assets            cursor, panel background, window icon
+UI_assets        cursor, panel background, window icon
 Fallback_folder_assets        Placeholder.json and fallback core images
 shortcuts_editor.py  Keys window
 Shortcuts.ini        default bindings (Apply writes a copy next to the exe)
@@ -162,3 +163,4 @@ UI_assets / Fallback_folder_assets     inside the exe
 Shortcuts.ini                          default inside the exe; Apply writes a copy next to the exe
 ABOUT.txt                              this text
 github.com/Grimfuldev/let_it_die_node_maker
+```
