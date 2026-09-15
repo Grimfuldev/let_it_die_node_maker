@@ -3,33 +3,33 @@
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/00492a01-bcb9-4105-9474-fca24a5035dd" />
 Editor for LET IT DIE style floor maps, create and edit maps. 
 
-```
 Folders next to the program (editable)
 --------------------------------------
+```
 Grid_assets          floor, node, gate, elevator, materials
 Sticker_assets       sticker catalog, Path routes
 ```
 
-```
 Bundled in the exe
 ------------------
+```
 UI_assets        cursor, panel background, window icon
 Fallback_folder_assets        Placeholder.json and fallback core images
 shortcuts_editor.py  Keys window
 Shortcuts.ini        default bindings (Apply writes a copy next to the exe)
 ```
 
-```
 UI art names
 ------------
+```
 let it die cursor.png      mouse cursor
 UI background.png          right-hand settings panel only
 uncle glasses ready.png    window / exe icon
 ```
 
-```
 FILE ROW
 --------
+```
 Export name     Filename used by Render and Export JSON (no extension).
 Import          File picker. Loads a map JSON (nodes, ports, elevators,
                 stickers, path routes). Missing stickers are skipped.
@@ -46,9 +46,9 @@ Base + input    Relabel the lowest floor. Nodes shift so they stay put.
                 Cannot go below B1 (0).
 ```
 
-```
 NODE
 ----
+```
 Title           Unique room name. Re-using a name updates that node.
 Floor # (0=B1)  Destination for Add / Update. Empty when nothing is selected.
                 'Add' stays grey until this is a valid number >= 0.
@@ -67,9 +67,9 @@ Update node     Writes the form onto the selected node. Stickers on the node fol
 Delete node     Removes the node, its area stickers, and reciprocal ports.
 ```
 
-```
 PORTS
 -----
+```
 Six squares: top-left, top-mid, top-right, und-left, und-mid, und-right.
 Click to focus (green). Used ports are grey; focused used ports blink.
 By default Q W E / A S D focus those ports (see Keys). Q/E and A/D match left/right
@@ -92,9 +92,9 @@ Cancel Button   Cancels an in-progress connection (does not delete links), Short
 Space           Centers the camera (not cancel).
 ```
 
-```
 STICKERS
 --------
+```
 Catalog         Subfolder titles, optional collapse checkboxes.
                 White border = selected thumb.
 X / Y           Next Add position. RMB empty grid writes these.
@@ -108,9 +108,9 @@ Backspace       Deletes the selected sticker.
 RMB sticker     Deletes that sticker on the grid.
 ```
 
-```
 Path routes
 -----------
+```
 Dots named *_Path in Sticker_assets/Path_route.
 Two+ of one color draw a slightly rounded noodle through every waypoint,
 with arrowheads. Double-click a dot to flip arrow direction.
@@ -128,9 +128,9 @@ Ctrl+F          Search field at the top-right of the grid.
                 rounded outline. X closes the bar and clears highlights.
 ```
 
-```
 MAP CONTROLS
 ------------
+```
 Left drag empty grid     pan
 Mouse wheel              zoom
 Scrollbar (right of grid)
@@ -143,41 +143,38 @@ Esc                      clear selection
 Del                      delete focused node, else focused sticker
 ```
 
-```
 CONNECTIONS AND RED BORDERS
 ---------------------------
+```
 A node shows a red plate when it has no elevator and no port/edge line,
 or a port breaks floor / direction / duplicate rules.
 Render still exports; status warns if some nodes are not connected.
 ```
 
-```
 ELEVATOR RIG
 ------------
+```
 Cars of one color share X. Drag any car and that segment moves.
 Roof cuts the visual line and treats cars above as a separate join group.
 Unchecking Roof tries to snap to the shaft above if that column is free.
 You cannot put two cars of the same color on one floor.
 ```
 
-```
 KEYS
 ----
+```
 Keys button (status bar) opens the Shortcuts window.
 Remappable bindings live in Shortcuts.ini after you Apply.
 Fixed commands (Ctrl+S / Ctrl+R / Ctrl+F, Del, Esc, zoom, pan, path
 holds) are listed there and cannot be rebound.
 ```
 
-```
 FILES
 -----
+```
 Grid_assets / Sticker_assets           user-editable next to the exe
 UI_assets / Fallback_folder_assets     inside the exe
 Shortcuts.ini                          default inside the exe; Apply writes a copy next to the exe
 ABOUT.txt                              this text
-```
-
-```
 github.com/Grimfuldev/let_it_die_node_maker
 ```
