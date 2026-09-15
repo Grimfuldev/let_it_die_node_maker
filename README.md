@@ -1,6 +1,6 @@
 # Let_It_Die_Node_Maker
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b4055017-35f6-4be5-a2de-767d302536fa" />
 <img width="256" height="256" alt="lidico" src="https://github.com/user-attachments/assets/1257874e-611a-4977-9f1b-03f959f71a24" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/327aeddb-60b9-4569-b3eb-906b47a4bf88" />
 
 Editor for LET IT DIE style floor maps, create and edit maps. 
 
