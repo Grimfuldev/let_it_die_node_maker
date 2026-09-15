@@ -7,7 +7,7 @@
 
 https://github.com/user-attachments/assets/a1ef5e4b-7ce0-4276-9e51-40112ad5ad6a
 
-
+Tutorial: https://www.youtube.com/watch?v=CNYqLca5yUw
 
 Editor for LET IT DIE style floor maps, create and edit maps. 
 
