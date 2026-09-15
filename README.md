@@ -179,5 +179,6 @@ Grid_assets / Sticker_assets           user-editable next to the exe
 UI_assets / Fallback_folder_assets     inside the exe
 Shortcuts.ini                          default inside the exe; Apply writes a copy next to the exe
 ABOUT.txt                              this text
+Compatible for Windows.
 github.com/Grimfuldev/let_it_die_node_maker
 ```
