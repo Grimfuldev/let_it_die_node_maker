@@ -119,9 +119,10 @@ is selected (then the new one becomes the start).
 Hold V and click a neighbouring same-color dot to insert halfway between.
 Hold RMB 2 seconds on that dot thumbnail color in the catalog to wipe the whole path.
 ```
-```
+
 SEARCH
 ------
+```
 Ctrl+F          Search field at the top-right of the grid.
                 Case-insensitive. Space and underscore are the same.
                 Matching nodes, materials, and stickers get a yellow
