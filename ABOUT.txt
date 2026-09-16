@@ -159,3 +159,5 @@ UI_assets / Fallback_folder_assets     inside the exe
 Shortcuts.ini                          default inside the exe; Apply writes a copy next to the exe
 ABOUT.txt                              this text
 github.com/Grimfuldev/let_it_die_node_maker
+
+Huge thanks to oberlinx and kaito9562 for the original wiki map sheet data, which I used to know where to add the materials.

@@ -152,7 +152,7 @@ EDGE_TARGET = "__EDGE__"
 CONN_COLORS = {
     "orange": (0xE5, 0x78, 0x0E),
     "cyan": (0x02, 0xF2, 0xC4),
-    "purple": (0x88, 0x65, 0xE8),
+    "purple": (0x8B, 0x66, 0xF2),
     "green": (0x68, 0xEF, 0x39),
     "blue": (0x00, 0x42, 0xFC),
     "magenta": (0xED, 0x23, 0x86),
@@ -192,7 +192,7 @@ PATH_DOT_RGB = {
     "Green_Path": (56, 190, 70),
 }
 PATH_ROUTE_DIR = "Path_route"
-PORT_LINE_W = 3.5
+PORT_LINE_W = 3.8
 PATH_LINE_W = 3
 SCROLL_W = 14
 
@@ -605,6 +605,7 @@ class MapState:
         self.stickers: List[Sticker] = []
         self.path_routes: Dict[str, dict] = blank_path_routes()
         self.uid = 1
+        self.ui: dict = {}
 
     def next_id(self, prefix="n") -> str:
         self.uid += 1
@@ -696,6 +697,7 @@ class MapState:
             "nodes": [n.to_dict() for n in self.nodes],
             "stickers": [s.to_dict() for s in self.stickers],
             "path_routes": getattr(self, "path_routes", blank_path_routes()),
+            "ui": dict(getattr(self, "ui", {}) or {}),
         }
 
     def load_dict(self, d: dict, assets: Optional["AssetStore"] = None):
@@ -726,6 +728,7 @@ class MapState:
         resolve_imported_layout(self)
         ensure_reciprocal_ports(self)
         prune_edge_ports(self)
+        self.ui = dict(d.get("ui") or {}) if isinstance(d.get("ui"), dict) else {}
 
     def seed_default(self):
         self.nodes.clear()
@@ -1519,7 +1522,8 @@ class MapRenderer:
                hide_stickers: bool = False,
                hide_paths: bool = False,
                live: bool = False,
-               red_blink: bool = True) -> Image.Image:
+               red_blink: bool = True,
+               flip_bg: bool = False) -> Image.Image:
         fc = state.floor_count()
         mf = state.min_floor()
         W, H = MAP_W, fc * FLOOR_H
@@ -1538,6 +1542,8 @@ class MapRenderer:
 
         # --- background panels (only visible band of the 10-floor strip) ---
         bg = self.assets.get("floor_bg")
+        if bg is not None and flip_bg:
+            bg = bg.transpose(Image.ROTATE_180)
         if bg is not None:
             y = (oy // bg.height) * bg.height
             while y < vy1:
@@ -1847,8 +1853,10 @@ class MapRenderer:
             paste_rgba(canvas, conn, (px, py))
 
     def export_png(self, state: MapState, path: str,
-                   hide_stickers: bool = False, hide_paths: bool = False):
-        img = self.render(state, crop=True, hide_stickers=hide_stickers, hide_paths=hide_paths)
+                   hide_stickers: bool = False, hide_paths: bool = False,
+                   flip_bg: bool = False):
+        img = self.render(state, crop=True, hide_stickers=hide_stickers, hide_paths=hide_paths,
+                          flip_bg=flip_bg)
         # footer
         footer_h = 28
         out = Image.new("RGBA", (img.width, img.height + footer_h), (18, 18, 18, 255))
@@ -1889,6 +1897,70 @@ def enrich_groups(state: MapState, assets: AssetStore) -> dict:
                 group.append(st.name)
         nd["group"] = group
     return data
+
+
+def _norm_folder(val) -> str:
+    return str(val or "").replace("\\", "/").replace("//", "/").strip("/")
+
+
+def catalog_folder_rels(assets: "AssetStore") -> set:
+    out = set()
+    for ent in getattr(assets, "catalog_entries", None) or []:
+        if ent and ent[0] == "cat":
+            rel = ent[3] if len(ent) > 3 else ent[1]
+            out.add(_norm_folder(rel).lower())
+    return out
+
+
+def snapshot_ui(lock_stickers, hide_mode, show_floor_ruler, flip_bg, starred, collapsed) -> dict:
+    cols = []
+    for item in collapsed or []:
+        if isinstance(item, (list, tuple)) and item:
+            cols.append(_norm_folder(item[0]))
+        else:
+            cols.append(_norm_folder(item))
+    return {
+        "lock_stickers": bool(lock_stickers),
+        "hide_mode": int(hide_mode or 0),
+        "floor_ruler": bool(show_floor_ruler),
+        "flip_bg": bool(flip_bg),
+        "starred_folders": [_norm_folder(x) for x in (starred or [])],
+        "collapsed_folders": cols,
+    }
+
+
+def apply_ui_prefs(ui: dict, assets: "AssetStore"):
+    ui = ui or {}
+    known = catalog_folder_rels(assets)
+    starred = []
+    for x in ui.get("starred_folders") or []:
+        rel = _norm_folder(x)
+        if rel.lower() in known:
+            starred.append(rel)
+    collapsed = set()
+    raw_col = ui.get("collapsed_folders") or []
+    for item in raw_col:
+        if isinstance(item, dict):
+            rel = _norm_folder(item.get("folder"))
+            depth = int(item.get("depth") or 1)
+        elif isinstance(item, (list, tuple)) and item:
+            rel = _norm_folder(item[0])
+            depth = int(item[1]) if len(item) > 1 else 1
+        else:
+            rel = _norm_folder(item)
+            depth = 1
+        if rel.lower() in known:
+            collapsed.add((rel, depth))
+    hide_mode = int(ui.get("hide_mode") or 0)
+    hide_mode = 0 if hide_mode < 0 else 2 if hide_mode > 2 else hide_mode
+    return {
+        "lock_stickers": bool(ui.get("lock_stickers")),
+        "hide_mode": hide_mode,
+        "show_floor_ruler": bool(ui.get("floor_ruler")),
+        "flip_bg": bool(ui.get("flip_bg")),
+        "starred": set(starred),
+        "collapsed": collapsed,
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -2249,6 +2321,7 @@ def run_editor():
     status_color = (200, 200, 160)
     lock_stickers = False
     hide_stickers = False
+    flip_bg = False
     hide_paths = False
     hide_mode = 0
     last_dot_click = {"id": "", "t": 0}
@@ -2280,6 +2353,8 @@ def run_editor():
                                  [("JSON", "*.json"), ("All files", "*.*")],
                                  SCRIPT_DIR, f"{state.name}.json")
         if path:
+            state.ui = snapshot_ui(lock_stickers, hide_mode, show_floor_ruler, flip_bg,
+                                   getattr(assets, "starred_folders", set()), collapsed_cats)
             data = enrich_groups(state, assets)
             with open(path, "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=2)
@@ -2292,7 +2367,8 @@ def run_editor():
         folder = native_file_dialog("dir", "Choose folder for rendered PNG", initialdir=SCRIPT_DIR)
         if folder:
             png = os.path.join(folder, f"{state.name}.png")
-            renderer.export_png(state, png, hide_stickers=hide_stickers, hide_paths=hide_paths)
+            renderer.export_png(state, png, hide_stickers=hide_stickers, hide_paths=hide_paths,
+                                flip_bg=flip_bg)
             if broken:
                 set_status("Some nodes are not connected")
             else:
@@ -3352,7 +3428,7 @@ def run_editor():
         now = pygame.time.get_ticks()
         red_blink = (now // 4000) % 2 == 0
         view_sig = (
-            hide_stickers, hide_paths, hide_mode, selected_node, selected_sticker, red_blink, round(zoom, 3), view_box,
+            hide_stickers, hide_paths, hide_mode, flip_bg, selected_node, selected_sticker, red_blink, round(zoom, 3), view_box,
             tuple((c, tuple((state.path_routes.get(c) or {}).get("ids") or []),
                    (state.path_routes.get(c) or {}).get("dir", 1)) for c in PATH_DOT_COLORS),
             tuple((n.id, n.floor, n.x, n.elevator, getattr(n, "roof", False), getattr(n, "elev_dx", 0), n.title, n.material, n.stars, getattr(n, "mat_right", False),
@@ -3372,6 +3448,7 @@ def run_editor():
                 hide_paths=hide_paths,
                 live=True,
                 red_blink=red_blink,
+                flip_bg=flip_bg,
             )
             surf = pil_to_surf(band.convert("RGBA"))
             tw = max(1, int(round(band.width * zoom)))
@@ -3509,6 +3586,17 @@ def run_editor():
                 base = os.path.splitext(os.path.basename(path))[0]
                 fields["export_name"] = base
                 state.name = base
+                prefs = apply_ui_prefs(getattr(state, "ui", {}), assets)
+                lock_stickers = prefs["lock_stickers"]
+                hide_mode = prefs["hide_mode"]
+                hide_paths = hide_mode >= 1
+                hide_stickers = hide_mode >= 2
+                show_floor_ruler = prefs["show_floor_ruler"]
+                flip_bg = prefs["flip_bg"]
+                assets.starred_folders = prefs["starred"]
+                collapsed_cats = prefs["collapsed"]
+                if prefs["starred"]:
+                    assets.reload_images()
                 last_saved_sig = saved_map_fingerprint()
                 set_status(f"Imported {path}")
             elif path:
@@ -4039,8 +4127,12 @@ def run_editor():
         pygame.draw.rect(screen, (16, 16, 18), Rect(0, sh - 28, sw, 28))
         draw_text(screen, status, (8, sh - 22), ui_font_sm, status_color)
         now_ui = pygame.time.get_ticks()
+        flip_r = Rect(sw - 222, sh - 24, 68, 20)
         thumb_r = Rect(sw - 150, sh - 24, 88, 20)
         keys_r = Rect(sw - 58, sh - 24, 50, 20)
+        if button(screen, "flipbg", flip_r, "Flip BG", mouse, click):
+            flip_bg = not flip_bg
+            set_status("Floor stripes flipped." if flip_bg else "Floor stripes default.")
         on_cd = now_ui < thumb_cd_until
         if on_cd:
             pygame.draw.rect(screen, (40, 40, 44), thumb_r, border_radius=3)
