@@ -189,4 +189,6 @@ ABOUT.txt                              this text
 Compatible for Windows.
 github.com/Grimfuldev/let_it_die_node_maker
 ```
+<img width="2090" height="7378" alt="Monday Rotation" src="https://github.com/user-attachments/assets/ca9df74a-49b2-44fe-8f55-0e382674e2c7" />
+
 Huge thanks to oberlinx and kaito9562 for the original wiki map sheet data, which I used to know where to add the materials.
