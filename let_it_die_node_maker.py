@@ -1867,7 +1867,7 @@ class MapRenderer:
         # flatten
         bg = Image.new("RGB", out.size, (20, 20, 20))
         bg.paste(out, mask=out.split()[-1])
-        bg.save(path)
+        bg.save(path.replace(".png", ".webp"), format="WEBP", quality=80)
 
 
 def enrich_groups(state: MapState, assets: AssetStore) -> dict:
