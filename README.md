@@ -188,3 +188,4 @@ ABOUT.txt                              this text
 Compatible for Windows.
 github.com/Grimfuldev/let_it_die_node_maker
 ```
+Huge thanks to oberlinx and kaito9562 for the original wiki map sheet data, which I used to know where to add the materials.
