@@ -1,0 +1,6006 @@
+{
+  "name": "Monday rotation",
+  "uid": 240,
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Waiting Room",
+      "floor": 0,
+      "x": 795,
+      "material": "Empty",
+      "stars": "",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "IKEGARA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Elevator_blue"
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "IKEGARA",
+      "floor": 1,
+      "x": 795,
+      "material": "None",
+      "stars": "",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "IMOKAWA-CHO",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "WANOKI",
+          "color": "orange",
+          "gate": "gate-up"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "Waiting Room",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "None",
+        "Elevator_blue",
+        "Stamp",
+        "Yotsuyama Bionics"
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "IMOKAWA-CHO",
+      "floor": 2,
+      "x": 615,
+      "material": "ALL",
+      "stars": "1",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "TAMATA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "IKEGARA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "ALL",
+        "Stamp",
+        "Tales From The Barbs"
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "WANOKI",
+      "floor": 2,
+      "x": 1215,
+      "material": "Aluminum",
+      "stars": "1",
+      "elevator": "pink",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "KAMI-IKEDOI",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "MINEMACHI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "IKEGARA",
+          "color": "orange",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Aluminum",
+        "Elevator_pink",
+        "Yotsuyama Bionics"
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "TAMATA",
+      "floor": 3,
+      "x": 795,
+      "material": "Fabric",
+      "stars": "",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": -70,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "TAGAHARA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "IMOKAWA-CHO",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Fabric",
+        "Elevator_blue",
+        "Tales From The Barbs",
+        "Boss",
+        "Blue Metals",
+        "D.O.D_blue"
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "KAMI-IKEDOI",
+      "floor": 3,
+      "x": 1350,
+      "material": "ALL",
+      "stars": "1",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "HYAKUDORI",
+          "color": "green",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "KANKAMATA",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "WANOKI",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "ALL",
+        "Stamp",
+        "Blue Metals"
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "MINEMACHI",
+      "floor": 3,
+      "x": 1815,
+      "material": "Aluminum",
+      "stars": "1",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "SHIMINE-MACHI",
+          "color": "green",
+          "gate": "gate-down"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "OMENO-TOICHI",
+          "color": "pink",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "WANOKI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Aluminum"
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "TAGAHARA",
+      "floor": 4,
+      "x": 795,
+      "material": "Iron",
+      "stars": "1",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "JOTEN-JIMA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "TAMATA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Iron",
+        "Elevator_blue",
+        "Stamp"
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "KANKAMATA",
+      "floor": 4,
+      "x": 1425,
+      "material": "Oil",
+      "stars": "1",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "OMENO-KITA",
+          "color": "green",
+          "gate": "gate-down"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "SHIMINE-MACHI",
+          "color": "pink",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "KAMI-IKEDOI",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Oil"
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "JOTEN-JIMA",
+      "floor": 5,
+      "x": 495,
+      "material": "Wood",
+      "stars": "1",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "MOKA-MAGOME",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "TAGAHARA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Wood"
+      ]
+    },
+    {
+      "id": "n11",
+      "title": "HYAKUDORI",
+      "floor": 5,
+      "x": 795,
+      "material": "Fabric",
+      "stars": "",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "MOKA-MAGOME",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "YUKI",
+          "color": "green",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "KAMI-IKEDOI",
+          "color": "green",
+          "gate": "gate-up"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Fabric",
+        "Elevator_blue",
+        "Stamp",
+        "Tales From The Barbs"
+      ]
+    },
+    {
+      "id": "n12",
+      "title": "MOKA-MAGOME",
+      "floor": 6,
+      "x": 795,
+      "material": "Iron",
+      "stars": "1",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": -56,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "MEGASHI-KOYA",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "DANEDA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "JOTEN-JIMA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "HYAKUDORI",
+          "color": "purple",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Iron",
+        "Elevator_blue",
+        "Tales From The Barbs",
+        "War_blue",
+        "Boss"
+      ]
+    },
+    {
+      "id": "n13",
+      "title": "MEKAROKU-GO",
+      "floor": 6,
+      "x": 1080,
+      "material": "ALL",
+      "stars": "1",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "NIKO-SENZOKU",
+          "color": "green",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "YUKI",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "ALL"
+      ]
+    },
+    {
+      "id": "n14",
+      "title": "MEGASHI-KOYA",
+      "floor": 7,
+      "x": 375,
+      "material": "Fabric",
+      "stars": "",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "MOKA-MAGOME",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Fabric",
+        "Vendor"
+      ]
+    },
+    {
+      "id": "n15",
+      "title": "DANEDA",
+      "floor": 7,
+      "x": 660,
+      "material": "Oil",
+      "stars": "1",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "META-KOYA",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "NIKO-SENZOKU",
+          "color": "blue",
+          "gate": "gate-down"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "MOKA-MAGOME",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Oil"
+      ]
+    },
+    {
+      "id": "n16",
+      "title": "YUKI",
+      "floor": 7,
+      "x": 1080,
+      "material": "Fabric",
+      "stars": "",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "HYAKUDORI",
+          "color": "green",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "MEKAROKU-GO",
+          "color": "purple",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Fabric",
+        "Stamp",
+        "Tales From The Barbs"
+      ]
+    },
+    {
+      "id": "n17",
+      "title": "SHIMINE-MACHI",
+      "floor": 7,
+      "x": 1620,
+      "material": "Wood",
+      "stars": "1",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "OMENO-KITA",
+          "color": "pink",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "OMENO-TOICHI",
+          "color": "green",
+          "gate": "gate-down"
+        },
+        "und_left": {
+          "target": "KANKAMATA",
+          "color": "pink",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "MINEMACHI",
+          "color": "green",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Wood"
+      ]
+    },
+    {
+      "id": "n18",
+      "title": "META-KOYA",
+      "floor": 8,
+      "x": 480,
+      "material": "Fabric",
+      "stars": "",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "YONEGUCHI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "NASHIYOGUCHI",
+          "color": "orange",
+          "gate": "gate-up"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "DANEDA",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Fabric"
+      ]
+    },
+    {
+      "id": "n19",
+      "title": "NIKO-SENZOKU",
+      "floor": 8,
+      "x": 795,
+      "material": "Aluminum",
+      "stars": "1",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "YOSHIKI-DANI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "DANEDA",
+          "color": "blue",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "MEKAROKU-GO",
+          "color": "green",
+          "gate": "gate-up"
+        }
+      },
+      "group": [
+        "Aluminum",
+        "Elevator_blue"
+      ]
+    },
+    {
+      "id": "n20",
+      "title": "YONEGUCHI",
+      "floor": 9,
+      "x": 315,
+      "material": "ALL",
+      "stars": "1",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "META-KOYA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "ALL",
+        "Vendor"
+      ]
+    },
+    {
+      "id": "n21",
+      "title": "NASHIYOGUCHI",
+      "floor": 9,
+      "x": 795,
+      "material": "Copper",
+      "stars": "1",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "OMENO-SOTO",
+          "color": "blue",
+          "gate": "gate-up"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "META-KOYA",
+          "color": "orange",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Copper",
+        "Elevator_blue",
+        "Stamp"
+      ]
+    },
+    {
+      "id": "n22",
+      "title": "YOSHIKI-DANI",
+      "floor": 9,
+      "x": 1065,
+      "material": "Fabric",
+      "stars": "",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "OMENO-SOTO",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "SHIMO-OMENO",
+          "color": "orange",
+          "gate": "gate-up"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "NIKO-SENZOKU",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Fabric",
+        "Tales From The Barbs"
+      ]
+    },
+    {
+      "id": "n23",
+      "title": "OMENO-KITA",
+      "floor": 9,
+      "x": 1425,
+      "material": "Wood",
+      "stars": "1",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "KANKAMATA",
+          "color": "green",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "SHIMINE-MACHI",
+          "color": "pink",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Wood"
+      ]
+    },
+    {
+      "id": "n24",
+      "title": "OMENO-SOTO",
+      "floor": 10,
+      "x": 795,
+      "material": "None",
+      "stars": "",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": -66,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "MAKA-TSUTSUMI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "NASHIYOGUCHI",
+          "color": "blue",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "YOSHIKI-DANI",
+          "color": "purple",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "None",
+        "Elevator_blue",
+        "Don Stamp",
+        "D.O.D_blue",
+        "Boss"
+      ]
+    },
+    {
+      "id": "n25",
+      "title": "SHIMO-OMENO",
+      "floor": 10,
+      "x": 1215,
+      "material": "Fabric",
+      "stars": "",
+      "elevator": "pink",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "MAKA-TSUTSUMI",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "NOKEJIRI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "YOSHIKI-DANI",
+          "color": "orange",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Fabric",
+        "Elevator_pink"
+      ]
+    },
+    {
+      "id": "n26",
+      "title": "OMENO-TOICHI",
+      "floor": 10,
+      "x": 1815,
+      "material": "Wood",
+      "stars": "1",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "SHIMINE-MACHI",
+          "color": "green",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "MINEMACHI",
+          "color": "pink",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Wood"
+      ]
+    },
+    {
+      "id": "n27",
+      "title": "MAKA-TSUTSUMI",
+      "floor": 11,
+      "x": 795,
+      "material": "None",
+      "stars": "",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": -71,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "SEYANE",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "UKONGAOKA",
+          "color": "blue",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "OMENO-SOTO",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "SHIMO-OMENO",
+          "color": "purple",
+          "gate": "gate-down"
+        }
+      },
+      "group": [
+        "None",
+        "Elevator_blue",
+        "Candle_green",
+        "Boss"
+      ]
+    },
+    {
+      "id": "n28",
+      "title": "NOKEJIRI",
+      "floor": 11,
+      "x": 1065,
+      "material": "ALL",
+      "stars": "2",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "KAMOTO",
+          "color": "green",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "SHIMO-OMENO",
+          "color": "cyan",
+          "gate": "gate-up"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "ALL",
+        "Stamp",
+        "Green Metals"
+      ]
+    },
+    {
+      "id": "n29",
+      "title": "SEYANE",
+      "floor": 12,
+      "x": 375,
+      "material": "ALL",
+      "stars": "2",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "YAMADAI",
+          "color": "green",
+          "gate": "gate-down"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "MOMOHARA",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "MAKA-TSUTSUMI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "ALL"
+      ]
+    },
+    {
+      "id": "n30",
+      "title": "UKONGAOKA",
+      "floor": 12,
+      "x": 795,
+      "material": "Fabric",
+      "stars": "",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "MOMOHARA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "KAMOTO",
+          "color": "blue",
+          "gate": "gate-up"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "MAKA-TSUTSUMI",
+          "color": "blue",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Fabric",
+        "Elevator_blue",
+        "Stamp"
+      ]
+    },
+    {
+      "id": "n31",
+      "title": "MOMOHARA",
+      "floor": 13,
+      "x": 510,
+      "material": "ALL",
+      "stars": "2",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "SEYANE",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "UKONGAOKA",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "ALL",
+        "Tales From The Barbs"
+      ]
+    },
+    {
+      "id": "n32",
+      "title": "KAMOTO",
+      "floor": 13,
+      "x": 795,
+      "material": "ALL",
+      "stars": "2",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "YAMADAI",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "UKONGAOKA",
+          "color": "blue",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "NOKEJIRI",
+          "color": "green",
+          "gate": "gate-up"
+        }
+      },
+      "group": [
+        "ALL",
+        "Elevator_blue",
+        "Yotsuyama Bionics"
+      ]
+    },
+    {
+      "id": "n33",
+      "title": "YAMADAI",
+      "floor": 14,
+      "x": 375,
+      "material": "Fabric",
+      "stars": "",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "USOGAYA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "SEYANE",
+          "color": "green",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "KAMOTO",
+          "color": "purple",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Fabric",
+        "Tales From The Barbs"
+      ]
+    },
+    {
+      "id": "n34",
+      "title": "KOSHI-TAGAWA",
+      "floor": 14,
+      "x": 990,
+      "material": "None",
+      "stars": "",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "UGE",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "None",
+        "Vendor"
+      ]
+    },
+    {
+      "id": "n35",
+      "title": "USOGAYA",
+      "floor": 15,
+      "x": 510,
+      "material": "Iron",
+      "stars": "2",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "KINUTAMIN",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "KAGA",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "green",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "YAMADAI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Iron",
+        "Stamp",
+        "Tales From The Barbs"
+      ]
+    },
+    {
+      "id": "n36",
+      "title": "UGE",
+      "floor": 15,
+      "x": 1185,
+      "material": "Copper",
+      "stars": "2",
+      "elevator": "green",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "KAGA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "KITAMIN",
+          "color": "orange",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "KOSHI-TAGAWA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Copper",
+        "Elevator_green"
+      ]
+    },
+    {
+      "id": "n37",
+      "title": "KAGA",
+      "floor": 16,
+      "x": 795,
+      "material": "Wood",
+      "stars": "2",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": -68,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "KINUTAMIN",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "TATA",
+          "color": "green",
+          "gate": "gate-down"
+        },
+        "und_left": {
+          "target": "USOGAYA",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "UGE",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Wood",
+        "Elevator_blue",
+        "Stamp",
+        "Yotsuyama Bionics",
+        "War_green",
+        "Boss"
+      ]
+    },
+    {
+      "id": "n38",
+      "title": "KITAMIN",
+      "floor": 16,
+      "x": 1380,
+      "material": "Wood",
+      "stars": "2",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "HOSHI-JOSUI",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "HOSHI-JOSUI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "UGE",
+          "color": "orange",
+          "gate": "gate-up"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Wood"
+      ]
+    },
+    {
+      "id": "n39",
+      "title": "KINUTAMIN",
+      "floor": 17,
+      "x": 510,
+      "material": "Oil",
+      "stars": "2",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "TEMO-UMA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "USOGAYA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "KAGA",
+          "color": "purple",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Oil",
+        "Stamp",
+        "Tales From The Barbs"
+      ]
+    },
+    {
+      "id": "n40",
+      "title": "NUTAKOEN",
+      "floor": 17,
+      "x": 1035,
+      "material": "None",
+      "stars": "",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "TATA",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "None",
+        "Vendor"
+      ]
+    },
+    {
+      "id": "n41",
+      "title": "HOSHI-JOSUI",
+      "floor": 17,
+      "x": 1380,
+      "material": "Oil",
+      "stars": "2",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "BO-TSUTSUMI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "KITAMIN",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "KITAMIN",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Oil"
+      ]
+    },
+    {
+      "id": "n42",
+      "title": "TEMO-UMA",
+      "floor": 18,
+      "x": 330,
+      "material": "ALL",
+      "stars": "2",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "DAIDA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "KINUTAMIN",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "ALL",
+        "Tales From The Barbs",
+        "Green Metals"
+      ]
+    },
+    {
+      "id": "n43",
+      "title": "TATA",
+      "floor": 18,
+      "x": 960,
+      "material": "ALL",
+      "stars": "2",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "DAIDA",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "KAGA",
+          "color": "green",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "NUTAKOEN",
+          "color": "purple",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "ALL"
+      ]
+    },
+    {
+      "id": "n44",
+      "title": "BO-TSUTSUMI",
+      "floor": 18,
+      "x": 1380,
+      "material": "Iron",
+      "stars": "2",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "MEKAMACHI",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "MEKAMACHI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "HOSHI-JOSUI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Iron",
+        "Rotation Stamp"
+      ]
+    },
+    {
+      "id": "n45",
+      "title": "CHITOSE-MEI",
+      "floor": 19,
+      "x": 480,
+      "material": "Aluminum",
+      "stars": "2",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "NORA",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "HACHIYANMA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Aluminum",
+        "Tales From The Barbs",
+        "Green Metals"
+      ]
+    },
+    {
+      "id": "n46",
+      "title": "DAIDA",
+      "floor": 19,
+      "x": 795,
+      "material": "ALL",
+      "stars": "2",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "NORA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "TEMO-UMA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "TATA",
+          "color": "purple",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "ALL",
+        "Elevator_blue"
+      ]
+    },
+    {
+      "id": "n47",
+      "title": "MEKAMACHI",
+      "floor": 19,
+      "x": 1380,
+      "material": "ALL",
+      "stars": "2",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "MONEGI",
+          "color": "orange",
+          "gate": "gate-up"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "BO-TSUTSUMI",
+          "color": "purple",
+          "gate": "open"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "BO-TSUTSUMI",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "ALL"
+      ]
+    },
+    {
+      "id": "n48",
+      "title": "NORA",
+      "floor": 20,
+      "x": 480,
+      "material": "Copper",
+      "stars": "2",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "CHITOSE-MEI",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "DAIDA",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Copper"
+      ]
+    },
+    {
+      "id": "n49",
+      "title": "HACHIYANMA",
+      "floor": 20,
+      "x": 795,
+      "material": "None",
+      "stars": "",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": -63,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "AKAMI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "CHITOSE-MEI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "None",
+        "Elevator_blue",
+        "Don Stamp",
+        "War_green",
+        "Boss"
+      ]
+    },
+    {
+      "id": "n50",
+      "title": "MONEGI",
+      "floor": 20,
+      "x": 1185,
+      "material": "ALL",
+      "stars": "2",
+      "elevator": "green",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": true,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "ARIGURE",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "MEKAMACHI",
+          "color": "orange",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "ALL",
+        "Elevator_green"
+      ]
+    },
+    {
+      "id": "n51",
+      "title": "AKAMI",
+      "floor": 21,
+      "x": 795,
+      "material": "ALL",
+      "stars": "3",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "FUKUIKI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "KAWABE",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "HACHIYANMA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "ALL",
+        "Elevator_blue",
+        "Stamp"
+      ]
+    },
+    {
+      "id": "n52",
+      "title": "ARIGURE",
+      "floor": 21,
+      "x": 1080,
+      "material": "ALL",
+      "stars": "3",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "KAWABE",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "MONEGI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "ALL"
+      ]
+    },
+    {
+      "id": "n53",
+      "title": "FUKUIKI",
+      "floor": 22,
+      "x": 225,
+      "material": "None",
+      "stars": "",
+      "elevator": "brown",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "AKAMI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "None",
+        "Elevator_brown"
+      ]
+    },
+    {
+      "id": "n54",
+      "title": "KAWABE",
+      "floor": 22,
+      "x": 945,
+      "material": "ALL",
+      "stars": "3",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "ECHIZEN-JIMA",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "HONKAWA",
+          "color": "cyan",
+          "gate": "gate-up"
+        },
+        "und_left": {
+          "target": "AKAMI",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "ARIGURE",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "ALL",
+        "Stamp",
+        "Tales From The Barbs",
+        "Black Metals"
+      ]
+    },
+    {
+      "id": "n55",
+      "title": "ECHIZEN-JIMA",
+      "floor": 23,
+      "x": 795,
+      "material": "Fabric",
+      "stars": "",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": -64,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "SUMIKIYO",
+          "color": "cyan",
+          "gate": "gate-up"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "AGASU",
+          "color": "purple",
+          "gate": "gate-up"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "KAWABE",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Fabric",
+        "Elevator_blue",
+        "Candle_black",
+        "Boss"
+      ]
+    },
+    {
+      "id": "n56",
+      "title": "HONKAWA",
+      "floor": 23,
+      "x": 1095,
+      "material": "Aluminum",
+      "stars": "3",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "MORIBA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "SUMIKIYO",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "KAWABE",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Aluminum",
+        "Yotsuyama Bionics"
+      ]
+    },
+    {
+      "id": "n57",
+      "title": "MORIBA",
+      "floor": 24,
+      "x": 480,
+      "material": "None",
+      "stars": "",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "FURU-IWABA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "HONKAWA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "None",
+        "Vendor"
+      ]
+    },
+    {
+      "id": "n58",
+      "title": "SUMIKIYO",
+      "floor": 24,
+      "x": 960,
+      "material": "Iron",
+      "stars": "3",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "KANIE",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "ECHIZEN-JIMA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "HONKAWA",
+          "color": "purple",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Iron",
+        "Tales From The Barbs"
+      ]
+    },
+    {
+      "id": "n59",
+      "title": "AGASU",
+      "floor": 24,
+      "x": 1245,
+      "material": "Wood",
+      "stars": "3",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "KANIE",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "TSUBAKI",
+          "color": "orange",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "ECHIZEN-JIMA",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Wood",
+        "Stamp"
+      ]
+    },
+    {
+      "id": "n60",
+      "title": "FURU-IWABA",
+      "floor": 25,
+      "x": 225,
+      "material": "Iron",
+      "stars": "3",
+      "elevator": "brown",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "MORIBA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Iron",
+        "Elevator_brown"
+      ]
+    },
+    {
+      "id": "n61",
+      "title": "KANIE",
+      "floor": 25,
+      "x": 795,
+      "material": "ALL",
+      "stars": "3",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "OSHIMI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "SHIMEMENO",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "SUMIKIYO",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "AGASU",
+          "color": "purple",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "ALL",
+        "Elevator_blue",
+        "Tales From The Barbs"
+      ]
+    },
+    {
+      "id": "n62",
+      "title": "TSUBAKI",
+      "floor": 25,
+      "x": 1320,
+      "material": "Fabric",
+      "stars": "",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "AGASU",
+          "color": "orange",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Fabric",
+        "Rotation Stamp"
+      ]
+    },
+    {
+      "id": "n63",
+      "title": "OSHIMI",
+      "floor": 26,
+      "x": 570,
+      "material": "Copper",
+      "stars": "3",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "SHICHI-FUGU",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "SHINKO-BASHI",
+          "color": "purple",
+          "gate": "gate-up"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "KANIE",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Copper",
+        "D.O.D_black",
+        "Boss"
+      ]
+    },
+    {
+      "id": "n64",
+      "title": "SHIMEMENO",
+      "floor": 26,
+      "x": 1020,
+      "material": "Oil",
+      "stars": "3",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "RIKKA",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "SHINKO-BASHI",
+          "color": "cyan",
+          "gate": "gate-up"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "KANIE",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Oil",
+        "War_black",
+        "Boss"
+      ]
+    },
+    {
+      "id": "n65",
+      "title": "RIKKA",
+      "floor": 27,
+      "x": 225,
+      "material": "Fabric",
+      "stars": "",
+      "elevator": "brown",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "SHIMEMENO",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Fabric",
+        "Elevator_brown"
+      ]
+    },
+    {
+      "id": "n66",
+      "title": "SHICHI-FUGU",
+      "floor": 27,
+      "x": 495,
+      "material": "ALL",
+      "stars": "3",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "HYAKKOKU",
+          "color": "purple",
+          "gate": "gate-down"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "OSHIMI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "ALL"
+      ]
+    },
+    {
+      "id": "n67",
+      "title": "SHINKO-BASHI",
+      "floor": 27,
+      "x": 795,
+      "material": "Fabric",
+      "stars": "",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "HYAKKOKU",
+          "color": "cyan",
+          "gate": "gate-up"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "HYAKUDA",
+          "color": "purple",
+          "gate": "gate-up"
+        },
+        "und_left": {
+          "target": "OSHIMI",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "SHIMEMENO",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Fabric",
+        "Elevator_blue",
+        "Tales From The Barbs"
+      ]
+    },
+    {
+      "id": "n68",
+      "title": "HYAKKOKU",
+      "floor": 28,
+      "x": 465,
+      "material": "ALL",
+      "stars": "3",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "TATEKAWA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "HASHIDAKA",
+          "color": "purple",
+          "gate": "open"
+        },
+        "und_left": {
+          "target": "SHICHI-FUGU",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "SHINKO-BASHI",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "ALL",
+        "Black Metals"
+      ]
+    },
+    {
+      "id": "n69",
+      "title": "HYAKUDA",
+      "floor": 28,
+      "x": 960,
+      "material": "Fabric",
+      "stars": "",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "HASHIDAKA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "TEMAE-JIMA",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "SHINKO-BASHI",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Fabric",
+        "Stamp",
+        "Black Metals"
+      ]
+    },
+    {
+      "id": "n70",
+      "title": "TATEKAWA",
+      "floor": 29,
+      "x": 225,
+      "material": "Iron",
+      "stars": "3",
+      "elevator": "brown",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "HYAKKOKU",
+          "color": "cyan",
+          "gate": "gate-up"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Iron",
+        "Elevator_brown"
+      ]
+    },
+    {
+      "id": "n71",
+      "title": "HASHIDAKA",
+      "floor": 29,
+      "x": 540,
+      "material": "Iron",
+      "stars": "3",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "TOWADA",
+          "color": "purple",
+          "gate": "gate-up"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "SAIGETSU",
+          "color": "orange",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "HYAKKOKU",
+          "color": "purple",
+          "gate": "gate-up"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "HYAKUDA",
+          "color": "cyan",
+          "gate": "gate-up"
+        }
+      },
+      "group": [
+        "Iron",
+        "Stamp",
+        "Tales From The Barbs"
+      ]
+    },
+    {
+      "id": "n72",
+      "title": "TEMAE-JIMA",
+      "floor": 29,
+      "x": 1185,
+      "material": "Fabric",
+      "stars": "",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "HYAKUDA",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Fabric",
+        "Vendor",
+        "Yotsuyama Bionics"
+      ]
+    },
+    {
+      "id": "n73",
+      "title": "TOWADA",
+      "floor": 30,
+      "x": 480,
+      "material": "ALL",
+      "stars": "3",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "OBARA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "HASHIDAKA",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "ALL"
+      ]
+    },
+    {
+      "id": "n74",
+      "title": "SAIGETSU",
+      "floor": 30,
+      "x": 795,
+      "material": "None",
+      "stars": "",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": -64,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "OBARA",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "HASHIDAKA",
+          "color": "orange",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "None",
+        "Elevator_blue",
+        "Don Stamp",
+        "Tales From The Barbs",
+        "Candle_black",
+        "Boss"
+      ]
+    },
+    {
+      "id": "n75",
+      "title": "OBARA",
+      "floor": 31,
+      "x": 795,
+      "material": "ALL",
+      "stars": "4",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "OSUKI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "AZABA",
+          "color": "pink",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "TOWADA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "SAIGETSU",
+          "color": "purple",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "ALL",
+        "Elevator_blue",
+        "Stamp"
+      ]
+    },
+    {
+      "id": "n76",
+      "title": "KOI",
+      "floor": 31,
+      "x": 1080,
+      "material": "None",
+      "stars": "",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "KATSUMA",
+          "color": "orange",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "OSUKI",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "None"
+      ]
+    },
+    {
+      "id": "n77",
+      "title": "KOSHI-YAMA",
+      "floor": 32,
+      "x": 330,
+      "material": "Iron",
+      "stars": "4",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "UCHINOBU",
+          "color": "orange",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Iron",
+        "Red Metals"
+      ]
+    },
+    {
+      "id": "n78",
+      "title": "KATSUMA",
+      "floor": 32,
+      "x": 585,
+      "material": "Oil",
+      "stars": "4",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "UCHINOBU",
+          "color": "cyan",
+          "gate": "gate-up"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "TOGOSE",
+          "color": "orange",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "KOI",
+          "color": "orange",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Oil",
+        "Stamp",
+        "Boss",
+        "M.I.L.K_red"
+      ]
+    },
+    {
+      "id": "n79",
+      "title": "OSUKI",
+      "floor": 32,
+      "x": 1035,
+      "material": "Copper",
+      "stars": "4",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": true,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "TOGOSE",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "OBARA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "KOI",
+          "color": "purple",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Copper"
+      ]
+    },
+    {
+      "id": "n80",
+      "title": "UCHINOBU",
+      "floor": 33,
+      "x": 480,
+      "material": "Fabric",
+      "stars": "",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "NITANDA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "KOSHI-YAMA",
+          "color": "orange",
+          "gate": "gate-down"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "KATSUMA",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Fabric",
+        "Vendor"
+      ]
+    },
+    {
+      "id": "n81",
+      "title": "TOGOSE",
+      "floor": 33,
+      "x": 795,
+      "material": "ALL",
+      "stars": "4",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "NITANDA",
+          "color": "orange",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "KATSUMA",
+          "color": "orange",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "OSUKI",
+          "color": "purple",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "ALL",
+        "Elevator_blue"
+      ]
+    },
+    {
+      "id": "n82",
+      "title": "MIDORISAKA",
+      "floor": 33,
+      "x": 1335,
+      "material": "None",
+      "stars": "",
+      "elevator": "green",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "AZABA",
+          "color": "cyan",
+          "gate": "closed-gate"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "NAGAZAKA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "None",
+        "Elevator_green",
+        "Rotation Stamp"
+      ]
+    },
+    {
+      "id": "n83",
+      "title": "NITANDA",
+      "floor": 34,
+      "x": 585,
+      "material": "None",
+      "stars": "",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "SHINA-YAMA",
+          "color": "orange",
+          "gate": "gate-up"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "ATAGI",
+          "color": "green",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "UCHINOBU",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "TOGOSE",
+          "color": "orange",
+          "gate": "gate-down"
+        }
+      },
+      "group": [
+        "None",
+        "Stamp",
+        "D.O.D_red",
+        "Boss"
+      ]
+    },
+    {
+      "id": "n84",
+      "title": "AZABA",
+      "floor": 34,
+      "x": 1065,
+      "material": "Fabric",
+      "stars": "",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "WAKABA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "SENBASHI",
+          "color": "green",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "OBARA",
+          "color": "pink",
+          "gate": "gate-down"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "MIDORISAKA",
+          "color": "cyan",
+          "gate": "open"
+        }
+      },
+      "group": [
+        "Fabric"
+      ]
+    },
+    {
+      "id": "n85",
+      "title": "NAGAZAKA",
+      "floor": 34,
+      "x": 1500,
+      "material": "Copper",
+      "stars": "4",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "WAKABA",
+          "color": "orange",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "SENBASHI",
+          "color": "pink",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "MIDORISAKA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Copper"
+      ]
+    },
+    {
+      "id": "n86",
+      "title": "SHINA-YAMA",
+      "floor": 35,
+      "x": 480,
+      "material": "Aluminum",
+      "stars": "4",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "ITANODAI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "ITANODAI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "NITANDA",
+          "color": "orange",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Aluminum",
+        "Tales From The Barbs"
+      ]
+    },
+    {
+      "id": "n87",
+      "title": "WAKABA",
+      "floor": 35,
+      "x": 1035,
+      "material": "Iron",
+      "stars": "4",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "YATSUO",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "AZABA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "NAGAZAKA",
+          "color": "orange",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Iron",
+        "Red Metals",
+        "Stamp",
+        "Yotsuyama Bionics"
+      ]
+    },
+    {
+      "id": "n88",
+      "title": "ITANODAI",
+      "floor": 36,
+      "x": 480,
+      "material": "Wood",
+      "stars": "4",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "HIROMATSU",
+          "color": "purple",
+          "gate": "gate-up"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "SHINA-YAMA",
+          "color": "cyan",
+          "gate": "closed-gate"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "SHINA-YAMA",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Wood",
+        "Tales From The Barbs",
+        "Candle_red",
+        "Boss"
+      ]
+    },
+    {
+      "id": "n89",
+      "title": "YATSUO",
+      "floor": 36,
+      "x": 795,
+      "material": "ALL",
+      "stars": "4",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "MITSUBA",
+          "color": "blue",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "KONAGI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "WAKABA",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "ALL",
+        "Elevator_blue",
+        "Yotsuyama Bionics",
+        "Stamp"
+      ]
+    },
+    {
+      "id": "n90",
+      "title": "HIRANUMA",
+      "floor": 36,
+      "x": 1065,
+      "material": "Copper",
+      "stars": "4",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "HIROMATSU",
+          "color": "orange",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Copper"
+      ]
+    },
+    {
+      "id": "n91",
+      "title": "SENBASHI",
+      "floor": 36,
+      "x": 1335,
+      "material": "Wood",
+      "stars": "4",
+      "elevator": "green",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "NAKASAKI",
+          "color": "pink",
+          "gate": "gate-up"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "ATAGI",
+          "color": "orange",
+          "gate": "gate-up"
+        },
+        "und_left": {
+          "target": "AZABA",
+          "color": "green",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "NAGAZAKA",
+          "color": "pink",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Wood",
+        "Elevator_green"
+      ]
+    },
+    {
+      "id": "n92",
+      "title": "MITSUBA",
+      "floor": 37,
+      "x": 450,
+      "material": "Oil",
+      "stars": "4",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "EBATA",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "YATAKA-CHO",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "YATSUO",
+          "color": "blue",
+          "gate": "gate-down"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Oil"
+      ]
+    },
+    {
+      "id": "n93",
+      "title": "HIROMATSU",
+      "floor": 37,
+      "x": 795,
+      "material": "ALL",
+      "stars": "4",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "EBATA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "YATAKA-CHO",
+          "color": "orange",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "ITANODAI",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "HIRANUMA",
+          "color": "orange",
+          "gate": "gate-down"
+        }
+      },
+      "group": [
+        "ALL",
+        "Elevator_blue",
+        "Tales From The Barbs"
+      ]
+    },
+    {
+      "id": "n94",
+      "title": "KONAGI",
+      "floor": 37,
+      "x": 1065,
+      "material": "Iron",
+      "stars": "4",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "IBAKOEN",
+          "color": "orange",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "IBAMURA",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "YATSUO",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Iron"
+      ]
+    },
+    {
+      "id": "n95",
+      "title": "ATAGI",
+      "floor": 37,
+      "x": 1335,
+      "material": "Aluminum",
+      "stars": "4",
+      "elevator": "purple",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": -3,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "IBAKOEN",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "IBAMURA",
+          "color": "orange",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "NITANDA",
+          "color": "green",
+          "gate": "gate-down"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "SENBASHI",
+          "color": "orange",
+          "gate": "gate-down"
+        }
+      },
+      "group": [
+        "Aluminum",
+        "Elevator_purple"
+      ]
+    },
+    {
+      "id": "n96",
+      "title": "EBATA",
+      "floor": 38,
+      "x": 330,
+      "material": "Aluminum",
+      "stars": "4",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "HARATSUKA",
+          "color": "orange",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "MITSUBA",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "HIROMATSU",
+          "color": "cyan",
+          "gate": "gate-down"
+        }
+      },
+      "group": [
+        "Aluminum",
+        "War_red",
+        "Tales From The Barbs",
+        "Boss"
+      ]
+    },
+    {
+      "id": "n97",
+      "title": "YATAKA-CHO",
+      "floor": 38,
+      "x": 600,
+      "material": "Fabric",
+      "stars": "",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "MITSUBA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "HIROMATSU",
+          "color": "orange",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Fabric",
+        "Red Metals"
+      ]
+    },
+    {
+      "id": "n98",
+      "title": "IBAKOEN",
+      "floor": 38,
+      "x": 1170,
+      "material": "Oil",
+      "stars": "4",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "HARATSUKA",
+          "color": "blue",
+          "gate": "gate-up"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "SHINKAWA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "KONAGI",
+          "color": "orange",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "ATAGI",
+          "color": "purple",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Oil"
+      ]
+    },
+    {
+      "id": "n99",
+      "title": "IBAMURA",
+      "floor": 38,
+      "x": 1500,
+      "material": "Fabric",
+      "stars": "",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "SHINKAWA",
+          "color": "orange",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "KONAGI",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "ATAGI",
+          "color": "orange",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Fabric"
+      ]
+    },
+    {
+      "id": "n100",
+      "title": "HARATSUKA",
+      "floor": 39,
+      "x": 510,
+      "material": "Oil",
+      "stars": "4",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "FUTAGI",
+          "color": "cyan",
+          "gate": "gate-up"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "EBATA",
+          "color": "orange",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "IBAKOEN",
+          "color": "blue",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Oil",
+        "Vendor",
+        "Tales From The Barbs"
+      ]
+    },
+    {
+      "id": "n101",
+      "title": "NAKASAKI",
+      "floor": 39,
+      "x": 795,
+      "material": "Iron",
+      "stars": "4",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "FUTAGI",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "SENBASHI",
+          "color": "pink",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Iron",
+        "Elevator_blue"
+      ]
+    },
+    {
+      "id": "n102",
+      "title": "SHINKAWA",
+      "floor": 39,
+      "x": 1335,
+      "material": "Iron",
+      "stars": "4",
+      "elevator": "purple",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "IBAKOEN",
+          "color": "cyan",
+          "gate": "closed-gate"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "IBAMURA",
+          "color": "orange",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "Iron",
+        "Elevator_purple"
+      ]
+    },
+    {
+      "id": "n103",
+      "title": "FUTAGI",
+      "floor": 40,
+      "x": 795,
+      "material": "None",
+      "stars": "",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": -70,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "SU-OI",
+          "color": "purple",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "CHOJO",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "HARATSUKA",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "NAKASAKI",
+          "color": "purple",
+          "gate": "gate-down"
+        }
+      },
+      "group": [
+        "None",
+        "Elevator_blue",
+        "Don Stamp",
+        "M.I.L.K_red",
+        "Boss",
+        "Tales From The Barbs"
+      ]
+    },
+    {
+      "id": "n104",
+      "title": "SU-OI",
+      "floor": 41,
+      "x": 795,
+      "material": "None",
+      "stars": "",
+      "elevator": "blue",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "__EDGE__",
+          "color": "cyan",
+          "gate": "open"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "FUTAGI",
+          "color": "purple",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "None",
+        "Elevator_blue"
+      ]
+    },
+    {
+      "id": "n105",
+      "title": "CHOJO",
+      "floor": 41,
+      "x": 1110,
+      "material": "None",
+      "stars": "",
+      "elevator": "none",
+      "elevator_a": "",
+      "elevator_b": "",
+      "roof": false,
+      "elev_dx": 0,
+      "mat_right": false,
+      "ports": {
+        "top_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_mid": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "top_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_left": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_mid": {
+          "target": "FUTAGI",
+          "color": "cyan",
+          "gate": "none"
+        },
+        "und_right": {
+          "target": "",
+          "color": "cyan",
+          "gate": "none"
+        }
+      },
+      "group": [
+        "None"
+      ]
+    }
+  ],
+  "stickers": [
+    {
+      "id": "s1",
+      "name": "Stamp",
+      "x": 981,
+      "y": 7083
+    },
+    {
+      "id": "s2",
+      "name": "Stamp",
+      "x": 792,
+      "y": 6911
+    },
+    {
+      "id": "s3",
+      "name": "Stamp",
+      "x": 1536,
+      "y": 6738
+    },
+    {
+      "id": "s5",
+      "name": "Stamp",
+      "x": 979,
+      "y": 6387
+    },
+    {
+      "id": "s6",
+      "name": "Stamp",
+      "x": 1258,
+      "y": 6035
+    },
+    {
+      "id": "s7",
+      "name": "Stamp",
+      "x": 984,
+      "y": 5159
+    },
+    {
+      "id": "s8",
+      "name": "Stamp",
+      "x": 1256,
+      "y": 5338
+    },
+    {
+      "id": "s9",
+      "name": "Stamp",
+      "x": 688,
+      "y": 4636
+    },
+    {
+      "id": "s10",
+      "name": "Stamp",
+      "x": 694,
+      "y": 4289
+    },
+    {
+      "id": "s11",
+      "name": "Stamp",
+      "x": 931,
+      "y": 4425
+    },
+    {
+      "id": "s12",
+      "name": "Stamp",
+      "x": 973,
+      "y": 3584
+    },
+    {
+      "id": "s13",
+      "name": "Stamp",
+      "x": 1135,
+      "y": 3411
+    },
+    {
+      "id": "s14",
+      "name": "Stamp",
+      "x": 1431,
+      "y": 3060
+    },
+    {
+      "id": "s16",
+      "name": "Stamp",
+      "x": 1141,
+      "y": 2357
+    },
+    {
+      "id": "s17",
+      "name": "Stamp",
+      "x": 711,
+      "y": 2187
+    },
+    {
+      "id": "s18",
+      "name": "Stamp",
+      "x": 973,
+      "y": 1832
+    },
+    {
+      "id": "s19",
+      "name": "Stamp",
+      "x": 617,
+      "y": 1659
+    },
+    {
+      "id": "s20",
+      "name": "Stamp",
+      "x": 714,
+      "y": 1318
+    },
+    {
+      "id": "s22",
+      "name": "Rotation Stamp",
+      "x": 1558,
+      "y": 4110
+    },
+    {
+      "id": "s23",
+      "name": "Rotation Stamp",
+      "x": 1516,
+      "y": 1492
+    },
+    {
+      "id": "s25",
+      "name": "Don Stamp",
+      "x": 899,
+      "y": 5511
+    },
+    {
+      "id": "s26",
+      "name": "Don Stamp",
+      "x": 878,
+      "y": 3766
+    },
+    {
+      "id": "s27",
+      "name": "Don Stamp",
+      "x": 947,
+      "y": 1969
+    },
+    {
+      "id": "s28",
+      "name": "Don Stamp",
+      "x": 896,
+      "y": 263
+    },
+    {
+      "id": "s30",
+      "name": "Vendor",
+      "x": 469,
+      "y": 6037
+    },
+    {
+      "id": "s31",
+      "name": "Vendor",
+      "x": 1078,
+      "y": 4813
+    },
+    {
+      "id": "s32",
+      "name": "Vendor",
+      "x": 1123,
+      "y": 4288
+    },
+    {
+      "id": "s33",
+      "name": "Vendor",
+      "x": 568,
+      "y": 3063
+    },
+    {
+      "id": "s34",
+      "name": "Vendor",
+      "x": 1281,
+      "y": 2190
+    },
+    {
+      "id": "s35",
+      "name": "Vendor",
+      "x": 568,
+      "y": 1488
+    },
+    {
+      "id": "s36",
+      "name": "Vendor",
+      "x": 598,
+      "y": 438
+    },
+    {
+      "id": "s37",
+      "name": "Tales From The Barbs",
+      "x": 755,
+      "y": 6913
+    },
+    {
+      "id": "s38",
+      "name": "Tales From The Barbs",
+      "x": 973,
+      "y": 6700
+    },
+    {
+      "id": "s39",
+      "name": "Tales From The Barbs",
+      "x": 945,
+      "y": 6389
+    },
+    {
+      "id": "s40",
+      "name": "Tales From The Barbs",
+      "x": 885,
+      "y": 6215
+    },
+    {
+      "id": "s41",
+      "name": "Tales From The Barbs",
+      "x": 1220,
+      "y": 6038
+    },
+    {
+      "id": "s42",
+      "name": "Tales From The Barbs",
+      "x": 1241,
+      "y": 5686
+    },
+    {
+      "id": "s43",
+      "name": "Tales From The Barbs",
+      "x": 689,
+      "y": 4988
+    },
+    {
+      "id": "s44",
+      "name": "Tales From The Barbs",
+      "x": 562,
+      "y": 4814
+    },
+    {
+      "id": "s45",
+      "name": "Tales From The Barbs",
+      "x": 650,
+      "y": 4638
+    },
+    {
+      "id": "s46",
+      "name": "Tales From The Barbs",
+      "x": 656,
+      "y": 4289
+    },
+    {
+      "id": "s47",
+      "name": "Tales From The Barbs",
+      "x": 517,
+      "y": 4114
+    },
+    {
+      "id": "s48",
+      "name": "Tales From The Barbs",
+      "x": 668,
+      "y": 3940
+    },
+    {
+      "id": "s49",
+      "name": "Tales From The Barbs",
+      "x": 1102,
+      "y": 3374
+    },
+    {
+      "id": "s50",
+      "name": "Tales From The Barbs",
+      "x": 1150,
+      "y": 3066
+    },
+    {
+      "id": "s51",
+      "name": "Tales From The Barbs",
+      "x": 979,
+      "y": 2889
+    },
+    {
+      "id": "s52",
+      "name": "Tales From The Barbs",
+      "x": 680,
+      "y": 2188
+    },
+    {
+      "id": "s53",
+      "name": "Tales From The Barbs",
+      "x": 869,
+      "y": 2014
+    },
+    {
+      "id": "s54",
+      "name": "Tales From The Barbs",
+      "x": 657,
+      "y": 1138
+    },
+    {
+      "id": "s55",
+      "name": "Tales From The Barbs",
+      "x": 623,
+      "y": 964
+    },
+    {
+      "id": "s56",
+      "name": "Tales From The Barbs",
+      "x": 974,
+      "y": 788
+    },
+    {
+      "id": "s57",
+      "name": "Tales From The Barbs",
+      "x": 698,
+      "y": 438
+    },
+    {
+      "id": "s58",
+      "name": "Yotsuyama Bionics",
+      "x": 1397,
+      "y": 6912
+    },
+    {
+      "id": "s59",
+      "name": "Yotsuyama Bionics",
+      "x": 963,
+      "y": 4988
+    },
+    {
+      "id": "s60",
+      "name": "Yotsuyama Bionics",
+      "x": 869,
+      "y": 4467
+    },
+    {
+      "id": "s61",
+      "name": "Yotsuyama Bionics",
+      "x": 1263,
+      "y": 3238
+    },
+    {
+      "id": "s62",
+      "name": "Yotsuyama Bionics",
+      "x": 1364,
+      "y": 2190
+    },
+    {
+      "id": "s63",
+      "name": "Yotsuyama Bionics",
+      "x": 938,
+      "y": 963
+    },
+    {
+      "id": "s65",
+      "name": "War_blue",
+      "x": 950,
+      "y": 6160,
+      "big": true
+    },
+    {
+      "id": "s66",
+      "name": "D.O.D_blue",
+      "x": 960,
+      "y": 5468,
+      "big": true
+    },
+    {
+      "id": "s67",
+      "name": "Candle_green",
+      "x": 953,
+      "y": 5286,
+      "big": true
+    },
+    {
+      "id": "s68",
+      "name": "War_green",
+      "x": 954,
+      "y": 4414,
+      "big": true
+    },
+    {
+      "id": "s69",
+      "name": "War_green",
+      "x": 954,
+      "y": 3719,
+      "big": true
+    },
+    {
+      "id": "s70",
+      "name": "Candle_black",
+      "x": 953,
+      "y": 3196,
+      "big": true
+    },
+    {
+      "id": "s71",
+      "name": "D.O.D_black",
+      "x": 729,
+      "y": 2663,
+      "big": true
+    },
+    {
+      "id": "s72",
+      "name": "War_black",
+      "x": 1174,
+      "y": 2667,
+      "big": true
+    },
+    {
+      "id": "s73",
+      "name": "Candle_black",
+      "x": 956,
+      "y": 1967,
+      "big": true
+    },
+    {
+      "id": "s75",
+      "name": "D.O.D_red",
+      "x": 742,
+      "y": 1262,
+      "big": true
+    },
+    {
+      "id": "s76",
+      "name": "Candle_red",
+      "x": 639,
+      "y": 918,
+      "big": true
+    },
+    {
+      "id": "s77",
+      "name": "War_red",
+      "x": 486,
+      "y": 570,
+      "big": true
+    },
+    {
+      "id": "s78",
+      "name": "M.I.L.K_red",
+      "x": 953,
+      "y": 214,
+      "big": true
+    },
+    {
+      "id": "s197",
+      "name": "Yotsuyama Bionics",
+      "x": 946,
+      "y": 7086
+    },
+    {
+      "id": "s198",
+      "name": "Boss",
+      "x": 949,
+      "y": 6723
+    },
+    {
+      "id": "s202",
+      "name": "Blue Metals",
+      "x": 1405,
+      "y": 6732
+    },
+    {
+      "id": "s203",
+      "name": "Blue Metals",
+      "x": 852,
+      "y": 6735
+    },
+    {
+      "id": "s204",
+      "name": "Stamp",
+      "x": 977,
+      "y": 6562
+    },
+    {
+      "id": "s205",
+      "name": "Boss",
+      "x": 924,
+      "y": 6213
+    },
+    {
+      "id": "s206",
+      "name": "Vendor",
+      "x": 411,
+      "y": 5688
+    },
+    {
+      "id": "s207",
+      "name": "Stamp",
+      "x": 973,
+      "y": 5686
+    },
+    {
+      "id": "s208",
+      "name": "Boss",
+      "x": 937,
+      "y": 5515
+    },
+    {
+      "id": "s209",
+      "name": "Green Metals",
+      "x": 1130,
+      "y": 5331
+    },
+    {
+      "id": "s210",
+      "name": "Green Metals",
+      "x": 389,
+      "y": 4107
+    },
+    {
+      "id": "s211",
+      "name": "Green Metals",
+      "x": 543,
+      "y": 3930
+    },
+    {
+      "id": "s212",
+      "name": "Boss",
+      "x": 930,
+      "y": 3765
+    },
+    {
+      "id": "s213",
+      "name": "Boss",
+      "x": 932,
+      "y": 3240
+    },
+    {
+      "id": "s214",
+      "name": "Boss",
+      "x": 1113,
+      "y": 2715
+    },
+    {
+      "id": "s215",
+      "name": "Boss",
+      "x": 667,
+      "y": 2712
+    },
+    {
+      "id": "s216",
+      "name": "Rotation Stamp",
+      "x": 1505,
+      "y": 2889
+    },
+    {
+      "id": "s217",
+      "name": "Black Metals",
+      "x": 531,
+      "y": 2356
+    },
+    {
+      "id": "s218",
+      "name": "Black Metals",
+      "x": 1016,
+      "y": 2357
+    },
+    {
+      "id": "s219",
+      "name": "Boss",
+      "x": 932,
+      "y": 2016
+    },
+    {
+      "id": "s220",
+      "name": "Boss",
+      "x": 685,
+      "y": 1668
+    },
+    {
+      "id": "s221",
+      "name": "Red Metals",
+      "x": 392,
+      "y": 1659
+    },
+    {
+      "id": "s223",
+      "name": "M.I.L.K_red",
+      "x": 737,
+      "y": 1605,
+      "big": true
+    },
+    {
+      "id": "s224",
+      "name": "Stamp",
+      "x": 976,
+      "y": 966
+    },
+    {
+      "id": "s225",
+      "name": "Boss",
+      "x": 670,
+      "y": 1317
+    },
+    {
+      "id": "s226",
+      "name": "Boss",
+      "x": 575,
+      "y": 965
+    },
+    {
+      "id": "s227",
+      "name": "Red Metals",
+      "x": 1093,
+      "y": 1137
+    },
+    {
+      "id": "s228",
+      "name": "Stamp",
+      "x": 1224,
+      "y": 1144
+    },
+    {
+      "id": "s229",
+      "name": "Yotsuyama Bionics",
+      "x": 1200,
+      "y": 1102
+    },
+    {
+      "id": "s230",
+      "name": "Tales From The Barbs",
+      "x": 453,
+      "y": 620
+    },
+    {
+      "id": "s231",
+      "name": "Boss",
+      "x": 393,
+      "y": 617
+    },
+    {
+      "id": "s232",
+      "name": "Red Metals",
+      "x": 661,
+      "y": 612
+    },
+    {
+      "id": "s233",
+      "name": "Boss",
+      "x": 933,
+      "y": 262
+    },
+    {
+      "id": "s234",
+      "name": "Tales From The Barbs",
+      "x": 862,
+      "y": 265
+    },
+    {
+      "id": "s236",
+      "name": "D.O.D_blue",
+      "x": 953,
+      "y": 6690,
+      "big": true
+    },
+    {
+      "id": "s237",
+      "name": "Boss",
+      "x": 935,
+      "y": 5338
+    },
+    {
+      "id": "s238",
+      "name": "Boss",
+      "x": 915,
+      "y": 4466
+    },
+    {
+      "id": "s239",
+      "name": "Black Metals",
+      "x": 1002,
+      "y": 3411
+    },
+    {
+      "id": "s240",
+      "name": "Tales From The Barbs",
+      "x": 984,
+      "y": 2537
+    }
+  ],
+  "path_routes": {
+    "Red_Path": {
+      "ids": [],
+      "dir": 1
+    },
+    "Orange_Path": {
+      "ids": [],
+      "dir": 1
+    },
+    "White_Path": {
+      "ids": [],
+      "dir": 1
+    },
+    "Cyan_Path": {
+      "ids": [],
+      "dir": 1
+    },
+    "Green_Path": {
+      "ids": [],
+      "dir": 1
+    }
+  },
+  "ui": {
+    "lock_stickers": false,
+    "hide_mode": 0,
+    "floor_ruler": false,
+    "flip_bg": true,
+    "starred_folders": [],
+    "collapsed_folders": []
+  }
+}
