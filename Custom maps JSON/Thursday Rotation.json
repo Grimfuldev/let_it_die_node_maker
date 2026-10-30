@@ -1435,7 +1435,7 @@
       "jigoku": false,
       "ports": {
         "top_left": {
-          "target": "",
+          "target": "SEYANE",
           "color": "cyan",
           "gate": "none"
         },
@@ -1445,8 +1445,8 @@
           "gate": "none"
         },
         "top_right": {
-          "target": "",
-          "color": "cyan",
+          "target": "UKONGAOKA",
+          "color": "blue",
           "gate": "none"
         },
         "und_left": {
@@ -1562,7 +1562,7 @@
           "gate": "none"
         },
         "und_mid": {
-          "target": "",
+          "target": "MAKA-TSUTSUMI",
           "color": "cyan",
           "gate": "none"
         },
@@ -1613,8 +1613,8 @@
           "gate": "none"
         },
         "und_mid": {
-          "target": "",
-          "color": "cyan",
+          "target": "MAKA-TSUTSUMI",
+          "color": "blue",
           "gate": "none"
         },
         "und_right": {
